@@ -4,23 +4,23 @@ Useful tool to check phone number, so this tool can be called osint or also info
 new release tools:
 ```Version 1```
 
-### Instalation on Linux (deb)
+### Instalation on Linux/kali linux 
 ```
-sudo apt-get install git
-sudo apt-get install python3
+sudo apt-get update
+sudo apt-get install git python3 python3-pip
+git clone https://github.com/zdeCodeR/toolsTrack.git
+cd toolsTrack
+pip3 install requests
+python3 phone_info.py
 ```
 
 ### Instalation on Termux
 ```
-pkg install git
-pkg install python3
-```
-
-### Usage Tool
-```
-git clone https://github.com/zdeCodeR/tracker-ip.git
-cd zxtracker
-pip3 install -r requirements.txt
-python3 zxtracker.py
+pkg update && pkg upgrade
+pkg install git python python-pip
+git clone https://github.com/zdeCodeR/toolsTrack.git
+cd toolsTrack
+pip install requests
+python phoneinfo.py
 ```
 
