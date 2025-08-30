@@ -9,7 +9,7 @@ new release tools:
 sudo apt-get update
 sudo apt-get install git python3 python3-pip
 git clone https://github.com/zdeCodeR/checkphonenumber.git
-cd toolsTrack
+cd checkphonenumber
 pip3 install requests
 python3 phoneinfo.py
 ```
@@ -19,7 +19,7 @@ python3 phoneinfo.py
 pkg update && pkg upgrade
 pkg install git python python-pip
 git clone https://github.com/zdeCodeR/checkphonenumber.git
-cd toolsTrack
+cd checkphonenumber
 pip install requests
 python phoneinfo.py
 ```
