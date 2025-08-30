@@ -8,17 +8,17 @@ new release tools:
 ```
 sudo apt-get update
 sudo apt-get install git python3 python3-pip
-git clone https://github.com/zdeCodeR/toolsTrack.git
+git clone https://github.com/zdeCodeR/checkphonenumber.git
 cd toolsTrack
 pip3 install requests
-python3 phone_info.py
+python3 phoneinfo.py
 ```
 
 ### Instalation on Termux
 ```
 pkg update && pkg upgrade
 pkg install git python python-pip
-git clone https://github.com/zdeCodeR/toolsTrack.git
+git clone https://github.com/zdeCodeR/checkphonenumber.git
 cd toolsTrack
 pip install requests
 python phoneinfo.py
